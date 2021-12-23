@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06BE09D02772C04700FC46F8 /* GuesthouseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BE09CF2772C04700FC46F8 /* GuesthouseDetailViewController.swift */; };
+		06BE09D22773023A00FC46F8 /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BE09D12773023A00FC46F8 /* SpinnerViewController.swift */; };
+		06D6D4A82771A34600A4F286 /* GuesthouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4A72771A34600A4F286 /* GuesthouseViewController.swift */; };
+		06D6D4AA2771A37500A4F286 /* GuesthouseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4A92771A37500A4F286 /* GuesthouseTableViewCell.swift */; };
+		06D6D4AC2771A60000A4F286 /* Guesthouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4AB2771A60000A4F286 /* Guesthouse.swift */; };
+		06D6D4B12771CD1800A4F286 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 06D6D4B02771CD1800A4F286 /* Kingfisher */; };
 		06F2406B27719D10009A615E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F2406A27719D10009A615E /* AppDelegate.swift */; };
 		06F2406D27719D10009A615E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F2406C27719D10009A615E /* SceneDelegate.swift */; };
 		06F2406F27719D10009A615E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F2406E27719D10009A615E /* ViewController.swift */; };
@@ -16,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06BE09CF2772C04700FC46F8 /* GuesthouseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuesthouseDetailViewController.swift; sourceTree = "<group>"; };
+		06BE09D12773023A00FC46F8 /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
+		06D6D4A72771A34600A4F286 /* GuesthouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuesthouseViewController.swift; sourceTree = "<group>"; };
+		06D6D4A92771A37500A4F286 /* GuesthouseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuesthouseTableViewCell.swift; sourceTree = "<group>"; };
+		06D6D4AB2771A60000A4F286 /* Guesthouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guesthouse.swift; sourceTree = "<group>"; };
 		06F2406727719D10009A615E /* Homework021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework021.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06F2406A27719D10009A615E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06F2406C27719D10009A615E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06D6D4B12771CD1800A4F286 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +72,11 @@
 				06F2406C27719D10009A615E /* SceneDelegate.swift */,
 				06F2406E27719D10009A615E /* ViewController.swift */,
 				06F2407027719D10009A615E /* Main.storyboard */,
+				06BE09D12773023A00FC46F8 /* SpinnerViewController.swift */,
+				06D6D4AB2771A60000A4F286 /* Guesthouse.swift */,
+				06D6D4A72771A34600A4F286 /* GuesthouseViewController.swift */,
+				06BE09CF2772C04700FC46F8 /* GuesthouseDetailViewController.swift */,
+				06D6D4A92771A37500A4F286 /* GuesthouseTableViewCell.swift */,
 				06F2407327719D12009A615E /* Assets.xcassets */,
 				06F2407527719D12009A615E /* LaunchScreen.storyboard */,
 				06F2407827719D12009A615E /* Info.plist */,
@@ -83,6 +100,9 @@
 			dependencies = (
 			);
 			name = Homework021;
+			packageProductDependencies = (
+				06D6D4B02771CD1800A4F286 /* Kingfisher */,
+			);
 			productName = Homework021;
 			productReference = 06F2406727719D10009A615E /* Homework021.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +131,9 @@
 				Base,
 			);
 			mainGroup = 06F2405E27719D10009A615E;
+			packageReferences = (
+				06D6D4AF2771CD1800A4F286 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 06F2406827719D10009A615E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06D6D4A82771A34600A4F286 /* GuesthouseViewController.swift in Sources */,
+				06BE09D02772C04700FC46F8 /* GuesthouseDetailViewController.swift in Sources */,
 				06F2406F27719D10009A615E /* ViewController.swift in Sources */,
 				06F2406B27719D10009A615E /* AppDelegate.swift in Sources */,
+				06BE09D22773023A00FC46F8 /* SpinnerViewController.swift in Sources */,
+				06D6D4AA2771A37500A4F286 /* GuesthouseTableViewCell.swift in Sources */,
 				06F2406D27719D10009A615E /* SceneDelegate.swift in Sources */,
+				06D6D4AC2771A60000A4F286 /* Guesthouse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +388,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		06D6D4AF2771CD1800A4F286 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		06D6D4B02771CD1800A4F286 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 06D6D4AF2771CD1800A4F286 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 06F2405F27719D10009A615E /* Project object */;
 }
